@@ -5,7 +5,6 @@ public class Auto {
     public Auto(String bezeichnung, int maxKmh){
         this.bezeichnung = bezeichnung;
         this.maxKmh = maxKmh;
-
     }
 
     public void setBezeichnung(String bezeichnung){

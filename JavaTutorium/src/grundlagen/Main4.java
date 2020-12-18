@@ -1,6 +1,6 @@
 package grundlagen;
 
-public class Main5 {
+public class Main4 {
     public static void main(String[] args) {
         gibKonsolenAusgabeAus();
 
@@ -30,20 +30,24 @@ public class Main5 {
         System.out.println("HALLO ICH BIN IN DER METHODE");
     }
 
+    // Rückgabewert int, Argument int x
     static int berechneWas(int x){
         return x+1;
     }
 
+    // Rückgabewert boolean, Argumente boolean b1, b2
     static boolean isTrue(boolean b1, boolean b2){
         boolean ergebnis = b1 && b2;
         return ergebnis;
     }
 
+    // Rückgabewert int, Argumente short s1, s2
     static int addShorts(short s1, short s2){
         int ergebnis = s1 + s2;
         return ergebnis;
     }
 
+    // Rückgabewert double, Argumente int x1, x2, x3
     static double malDrei(int x1, int x2, int x3){
         double ergebnis = x1 * x2 * x3;
         return ergebnis;

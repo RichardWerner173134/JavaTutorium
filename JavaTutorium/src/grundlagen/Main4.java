@@ -28,6 +28,7 @@ public class Main4 {
         System.out.println("HALLO ICH BIN IN DER METHODE");
         System.out.println("HALLO ICH BIN IN DER METHODE");
         System.out.println("HALLO ICH BIN IN DER METHODE");
+        //kein return statement
     }
 
     // Rückgabewert int, Argument int x

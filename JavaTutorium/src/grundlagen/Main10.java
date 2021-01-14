@@ -21,7 +21,17 @@ public class Main10 {
 
         int erg = berechneSumme(array);
         System.out.println("SUMME VOM ARRAY " + erg);
+
+        int [][] zweidim = new int[3][2];
+        // zweidim = [1, 2][2, 4][6, 1]
+        for(int i = 0; i < zweidim[0].length; i++){
+            for(int j = i; j < zweidim[1].length; j++){
+                System.out.println(zweidim[i][j]);
+            }
+        }
+
     }
+
 
 
     static int sum(int n){

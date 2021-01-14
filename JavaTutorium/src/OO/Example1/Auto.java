@@ -1,3 +1,5 @@
+package OO.Example1;
+
 public class Auto {
     String bezeichnung;
     int maxKmh;

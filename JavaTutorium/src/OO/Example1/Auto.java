@@ -1,8 +1,9 @@
 package OO.Example1;
 
 public class Auto {
-    String bezeichnung;
-    int maxKmh;
+    public static final int KONSTANTE = 1231723;
+    protected String bezeichnung;
+    protected int maxKmh;
 
     public Auto(String bezeichnung, int maxKmh){
         this.bezeichnung = bezeichnung;
@@ -28,4 +29,20 @@ public class Auto {
     public static boolean istSchneller(Auto a1, Auto a2){
         return a1.getMaxKmh() >= a2.getMaxKmh();
     }
+
+    public void überladen1(int x, String s){
+        // irgendwas
+    }
+
+    public void überladen1(boolean f){
+    }
+
+    public void überladen1(){
+        // irgendwas
+    }
+
+    public void überladen1(String f){
+    }
+
+
 }
